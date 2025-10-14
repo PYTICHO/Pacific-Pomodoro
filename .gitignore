@@ -1,0 +1,90 @@
+# ────────────── Xcode ──────────────
+DerivedData/
+build/
+*.xcuserstate
+*.xcscmblueprint
+*.xcworkspace/xcuserdata/
+*.xcuserdatad/
+project.xcworkspace/xcuserdata/
+
+# ────────────── macOS ──────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ────────────── Logs ──────────────
+*.log
+*.xccheckout
+*.xcactivitylog
+*.moved-aside
+*.xcuserstate
+*.xcdebugger
+*.xcbkptlist
+
+# ────────────── Swift / Objective-C ──────────────
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ────────────── User settings ──────────────
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+
+# ────────────── Code signing / certificates ──────────────
+*.p12
+*.mobileprovision
+
+# ────────────── macOS Finder ──────────────
+._*
+.Spotlight-V100
+.Trashes
+
+# ────────────── Temporary / cache ──────────────
+*.tmp
+*.swp
+*.lock
+*.bak
+*.orig
+
+# ────────────── DMG / Build artifacts ──────────────
+*.dmg
+*.zip
+*.app
+*.pkg
+*.tar
+*.gz
+
+# ────────────── Sentry / Logs / Instruments ──────────────
+*.xcresult
+*.trace
+*.crash
+*.plist
+
+# ────────────── Fastlane / CI ──────────────
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ────────────── CocoaPods ──────────────
+Pods/
+Podfile.lock
+
+# ────────────── Swift Package Manager ──────────────
+.build/
+.swiftpm/xcode/
+Package.resolved
+
+# ────────────── Carthage ──────────────
+Carthage/Build/
+
+# ────────────── User data / Local config ──────────────
+*.xcuserdata
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+.idea/
+.vscode/
+*.env
