@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7D9395212E9E425B006B3EB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D93950A2E9E4259006B3EB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D9395112E9E4259006B3EB2;
+			remoteInfo = "Pacific Pomodoro";
+		};
+		7D93952B2E9E425B006B3EB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D93950A2E9E4259006B3EB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D9395112E9E4259006B3EB2;
+			remoteInfo = "Pacific Pomodoro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D9395122E9E4259006B3EB2 /* Pacific Pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pacific Pomodoro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D9395202E9E425B006B3EB2 /* Pacific PomodoroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pacific PomodoroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D93952A2E9E425B006B3EB2 /* Pacific PomodoroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pacific PomodoroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7D9395142E9E4259006B3EB2 /* Pacific Pomodoro */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Pacific Pomodoro";
+			sourceTree = "<group>";
+		};
+		7D9395232E9E425B006B3EB2 /* Pacific PomodoroTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Pacific PomodoroTests";
+			sourceTree = "<group>";
+		};
+		7D93952D2E9E425B006B3EB2 /* Pacific PomodoroUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Pacific PomodoroUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D93950F2E9E4259006B3EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D93951D2E9E425B006B3EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9395272E9E425B006B3EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D9395092E9E4259006B3EB2 = {
+			isa = PBXGroup;
+			children = (
+				7D9395142E9E4259006B3EB2 /* Pacific Pomodoro */,
+				7D9395232E9E425B006B3EB2 /* Pacific PomodoroTests */,
+				7D93952D2E9E425B006B3EB2 /* Pacific PomodoroUITests */,
+				7D9395132E9E4259006B3EB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D9395132E9E4259006B3EB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D9395122E9E4259006B3EB2 /* Pacific Pomodoro.app */,
+				7D9395202E9E425B006B3EB2 /* Pacific PomodoroTests.xctest */,
+				7D93952A2E9E425B006B3EB2 /* Pacific PomodoroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D9395112E9E4259006B3EB2 /* Pacific Pomodoro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D9395342E9E425B006B3EB2 /* Build configuration list for PBXNativeTarget "Pacific Pomodoro" */;
+			buildPhases = (
+				7D93950E2E9E4259006B3EB2 /* Sources */,
+				7D93950F2E9E4259006B3EB2 /* Frameworks */,
+				7D9395102E9E4259006B3EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7D9395142E9E4259006B3EB2 /* Pacific Pomodoro */,
+			);
+			name = "Pacific Pomodoro";
+			packageProductDependencies = (
+			);
+			productName = "Pacific Pomodoro";
+			productReference = 7D9395122E9E4259006B3EB2 /* Pacific Pomodoro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D93951F2E9E425B006B3EB2 /* Pacific PomodoroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D9395372E9E425B006B3EB2 /* Build configuration list for PBXNativeTarget "Pacific PomodoroTests" */;
+			buildPhases = (
+				7D93951C2E9E425B006B3EB2 /* Sources */,
+				7D93951D2E9E425B006B3EB2 /* Frameworks */,
+				7D93951E2E9E425B006B3EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D9395222E9E425B006B3EB2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7D9395232E9E425B006B3EB2 /* Pacific PomodoroTests */,
+			);
+			name = "Pacific PomodoroTests";
+			packageProductDependencies = (
+			);
+			productName = "Pacific PomodoroTests";
+			productReference = 7D9395202E9E425B006B3EB2 /* Pacific PomodoroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D9395292E9E425B006B3EB2 /* Pacific PomodoroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D93953A2E9E425B006B3EB2 /* Build configuration list for PBXNativeTarget "Pacific PomodoroUITests" */;
+			buildPhases = (
+				7D9395262E9E425B006B3EB2 /* Sources */,
+				7D9395272E9E425B006B3EB2 /* Frameworks */,
+				7D9395282E9E425B006B3EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D93952C2E9E425B006B3EB2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7D93952D2E9E425B006B3EB2 /* Pacific PomodoroUITests */,
+			);
+			name = "Pacific PomodoroUITests";
+			packageProductDependencies = (
+			);
+			productName = "Pacific PomodoroUITests";
+			productReference = 7D93952A2E9E425B006B3EB2 /* Pacific PomodoroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D93950A2E9E4259006B3EB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					7D9395112E9E4259006B3EB2 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					7D93951F2E9E425B006B3EB2 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 7D9395112E9E4259006B3EB2;
+					};
+					7D9395292E9E425B006B3EB2 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 7D9395112E9E4259006B3EB2;
+					};
+				};
+			};
+			buildConfigurationList = 7D93950D2E9E4259006B3EB2 /* Build configuration list for PBXProject "Pacific Pomodoro" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D9395092E9E4259006B3EB2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7D9395132E9E4259006B3EB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D9395112E9E4259006B3EB2 /* Pacific Pomodoro */,
+				7D93951F2E9E425B006B3EB2 /* Pacific PomodoroTests */,
+				7D9395292E9E425B006B3EB2 /* Pacific PomodoroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D9395102E9E4259006B3EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D93951E2E9E425B006B3EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9395282E9E425B006B3EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D93950E2E9E4259006B3EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D93951C2E9E425B006B3EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9395262E9E425B006B3EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D9395222E9E425B006B3EB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D9395112E9E4259006B3EB2 /* Pacific Pomodoro */;
+			targetProxy = 7D9395212E9E425B006B3EB2 /* PBXContainerItemProxy */;
+		};
+		7D93952C2E9E425B006B3EB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D9395112E9E4259006B3EB2 /* Pacific Pomodoro */;
+			targetProxy = 7D93952B2E9E425B006B3EB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7D9395322E9E425B006B3EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HHL2DVMJW9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D9395332E9E425B006B3EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HHL2DVMJW9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7D9395352E9E425B006B3EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Pacific Pomodoro/Pacific_Pomodoro.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHL2DVMJW9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SPYonez.Pacific-Pomodoro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7D9395362E9E425B006B3EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Pacific Pomodoro/Pacific_Pomodoro.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHL2DVMJW9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SPYonez.Pacific-Pomodoro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7D9395382E9E425B006B3EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHL2DVMJW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SPYonez.Pacific-PomodoroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pacific Pomodoro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pacific Pomodoro";
+			};
+			name = Debug;
+		};
+		7D9395392E9E425B006B3EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHL2DVMJW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SPYonez.Pacific-PomodoroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pacific Pomodoro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pacific Pomodoro";
+			};
+			name = Release;
+		};
+		7D93953B2E9E425B006B3EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHL2DVMJW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SPYonez.Pacific-PomodoroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Pacific Pomodoro";
+			};
+			name = Debug;
+		};
+		7D93953C2E9E425B006B3EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHL2DVMJW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SPYonez.Pacific-PomodoroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Pacific Pomodoro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D93950D2E9E4259006B3EB2 /* Build configuration list for PBXProject "Pacific Pomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9395322E9E425B006B3EB2 /* Debug */,
+				7D9395332E9E425B006B3EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D9395342E9E425B006B3EB2 /* Build configuration list for PBXNativeTarget "Pacific Pomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9395352E9E425B006B3EB2 /* Debug */,
+				7D9395362E9E425B006B3EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D9395372E9E425B006B3EB2 /* Build configuration list for PBXNativeTarget "Pacific PomodoroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9395382E9E425B006B3EB2 /* Debug */,
+				7D9395392E9E425B006B3EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D93953A2E9E425B006B3EB2 /* Build configuration list for PBXNativeTarget "Pacific PomodoroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D93953B2E9E425B006B3EB2 /* Debug */,
+				7D93953C2E9E425B006B3EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D93950A2E9E4259006B3EB2 /* Project object */;
+}
