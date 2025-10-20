@@ -49,6 +49,20 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         updateTitle()
     }
 
+    
+    private func getWorkLabelText(minutes: Int) -> String {
+        if minutes >= 60 {
+            let hours = minutes / 60
+            let remainingMinutes = minutes % 60
+            if remainingMinutes == 0 {
+                return "Concentration: \(hours)h"
+            } else {
+                return "Concentration: \(hours)h \(remainingMinutes)m"
+            }
+        } else {
+            return "Concentration: \(minutes) min"
+        }
+    }
 
     // MARK: - Меню
     private func constructMenu() {
@@ -62,17 +76,15 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         // Work duration label
         let workLabel = NSMenuItem()
         let minutes = workDuration / 60
-        if minutes >= 60 {
-            let hours = minutes / 60
-            let remainingMinutes = minutes % 60
-            if remainingMinutes == 0 {
-                workLabel.title = "Work duration: \(hours)h"
-            } else {
-                workLabel.title = "Work duration: \(hours)h \(remainingMinutes)m"
-            }
-        } else {
-            workLabel.title = "Work duration: \(minutes) min"
-        }
+        
+        workLabel.attributedTitle = NSAttributedString(
+            string: getWorkLabelText(minutes: minutes),
+            attributes: [
+                .foregroundColor: NSColor.systemTeal,
+            ]
+        )
+        
+//        workLabel.title = getWorkLabelText(minutes: minutes) //Gooood /Goddd
         menu.addItem(workLabel)
 
         // Центрированный слайдер для work
@@ -87,11 +99,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         menu.addItem(workSliderItem)
         
         menu.addItem(NSMenuItem.separator())
-        
-        // Звуки уведомлений
-        let soundLabel = NSMenuItem()
-        soundLabel.title = "Notification sound:"
-        menu.addItem(soundLabel)
 
         // Выпадающий список звуков
         let soundMenu = NSMenu()
@@ -107,7 +114,16 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         }
 
         // Заголовок подменю = текущий выбранный звук
-        let soundSubmenuItem = NSMenuItem(title: selectedSound, action: nil, keyEquivalent: "")
+//        let soundSubmenuItem = NSMenuItem(title: "Notification sound: \(selectedSound)", action: nil, keyEquivalent: "")
+        let soundSubmenuItem = NSMenuItem()
+        soundSubmenuItem.attributedTitle = NSAttributedString(
+            string: "Notification sound: \(selectedSound)",
+            attributes: [
+                .foregroundColor: NSColor.systemTeal
+            ]
+        )
+        
+        
         soundSubmenuItem.submenu = soundMenu
         menu.addItem(soundSubmenuItem)
         
@@ -149,21 +165,15 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         guard let menu = statusItem.menu else { return }
 
         let minutes = workDuration / 60
-        let labelText: String
 
-        if minutes >= 60 {
-            let hours = minutes / 60
-            let remainingMinutes = minutes % 60
-            if remainingMinutes == 0 {
-                labelText = "Work duration: \(hours)h"
-            } else {
-                labelText = "Work duration: \(hours)h \(remainingMinutes)m"
-            }
-        } else {
-            labelText = "Work duration: \(minutes) min"
+        if let workLabel = menu.item(at: 4) { // или по tag, если ты его задавал
+            workLabel.attributedTitle = NSAttributedString(
+                string: getWorkLabelText(minutes: minutes),
+                attributes: [
+                    .foregroundColor: NSColor.systemTeal
+                ]
+            )
         }
-
-        menu.item(at: 4)?.title = labelText
     }
 
     // MARK: - Таймер
@@ -211,10 +221,19 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         selectedSound = sender.title
 
         // 🔧 Обновляем заголовок родительского пункта меню
+//        if let parentItem = sender.parent {
+//            parentItem.title = "Notification sound: \(selectedSound)"
+//        }
         if let parentItem = sender.parent {
-            parentItem.title = selectedSound
+            parentItem.attributedTitle = NSAttributedString(
+                string: "Notification sound: \(selectedSound)",
+                attributes: [
+                    .foregroundColor: NSColor.systemTeal
+                ]
+            )
         }
-
+        
+        
         // 🎵 Проигрываем звук, если это не "Off"
         if selectedSound != "Off" {
             NSSound(named: NSSound.Name(selectedSound))?.play()
