@@ -88,3 +88,4 @@ Carthage/Build/
 .idea/
 .vscode/
 *.env
+*.xcodeproj
